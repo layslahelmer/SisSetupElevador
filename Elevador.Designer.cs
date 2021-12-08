@@ -1,4 +1,4 @@
-
+﻿
 namespace Elevador
 {
     partial class Elevador
@@ -529,6 +529,8 @@ namespace Elevador
             this.MaximizeBox = false;
             this.Name = "Elevador";
             this.Text = "SisSup - Elevador";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Elevador_FormClosed);
+            this.Load += new System.EventHandler(this.Elevador_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
